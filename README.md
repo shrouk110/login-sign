@@ -1,16 +1,41 @@
 # flutter_application_3
 
 A new Flutter project.
+# ✨ Flutter Login & Sign Up UI
 
-## Getting Started
+A clean and modern Flutter application that provides a beautiful user interface for **Login** and **Sign Up** screens.  
+This project is ideal as a base template for mobile applications that require user authentication flow.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Sign Up Page | Login Page |
+|--------------|------------|
+| ![signup](screens/signup.png) | ![login](screens/login.png) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> *(You can add screenshots inside the `screens/` folder, or remove this section if you don’t have images yet.)*
+
+---
+
+## 🎯 Features
+
+- ✅ Elegant and responsive design using Flutter Material UI
+- ✅ Custom styled TextFields with icons
+- ✅ Separate screens for Sign Up and Login
+- ✅ Navigation between Login and Sign Up using `Navigator.push` and `Navigator.pop`
+- ✅ Google Sign-In button design (UI only)
+- ✅ "Forgot Password?" button (UI only)
+- ✅ Password and Confirm Password fields
+- ✅ Clean structure for scalability
+
+---
+
+## 📁 Project Structure
+
+```bash
+lib/
+├── main.dart              # Entry point of the app
+├── login_page.dart        # Login screen UI
+├── signup_page.dart       # Sign Up screen UI (MyHomePage)
+
